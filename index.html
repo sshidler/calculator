@@ -5,8 +5,40 @@
   <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
  </head>
-<script src="script.js"></script>
 <body>
-  
+  <div id="calculator">
+    <input type="text" id="display" value="0" />
+    <div class="row">
+      <input type="button" value="1" class="number" />
+      <input type="button" value="2" class="number" />
+      <input type="button" value="3" class="number" />
+      <input type="button" value="+" class="operation" />
+    </div>
+    <div class="row">
+      
+      <input type="button" value="4" class="number" />
+      <input type="button" value="5" class="number" />
+      <input type="button" value="6" class="number" />
+      <input type="button" value="-" class="operation" /> 
+    </div>
+    <div class="row">
+      <input type="button" value="7" class="number" />
+      <input type="button" value="8" class="number" />
+      <input type="button" value="9" class="number" />
+      <input type="button" value="x" class="operation" />  
+    </div>
+    <div>
+      <input type="button" value="0" class="number wide" />
+      <input type="button" value="C" id="clear" class="operation" />
+      <input type="button" value="/" class="operation" /> 
+    </div>
+    <div class="row">
+      <input type="button" value="√" class="operation" class="wide"/>
+      <input type="button" value="^" class="operation" />  
+      <input type="button" value="=" id="equals" class="operation" class="wide" /> 
+    </div>    
+</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
